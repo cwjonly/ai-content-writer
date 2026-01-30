@@ -1,0 +1,70 @@
+{
+  "name": "blog-post",
+  "title": "博客文章模板",
+  "description": "适合写技术博客或一般文章的模板",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "标题"
+    },
+    {
+      "type": "paragraph",
+      "text": "在本文中，我将讨论[主题]的各个方面..."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "介绍"
+    },
+    {
+      "type": "paragraph",
+      "text": "[详细介绍部分...]..."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "背景"
+    },
+    {
+      "type": "paragraph",
+      "text": "[背景信息...]..."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "主要观点"
+    },
+    {
+      "type": "paragraph",
+      "text": "[观点一...]..."
+    },
+    {
+      "type": "paragraph",
+      "text": "[观点二...]..."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "实现方法"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "code": "// 示例代码\nfunction example() {\n  console.log('Hello World');\n}"
+    },
+    {
+      "type": "paragraph",
+      "text": "[代码解释...]..."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "总结"
+    },
+    {
+      "type": "paragraph",
+      "text": "[总结部分...]..."
+    }
+  ]
+}

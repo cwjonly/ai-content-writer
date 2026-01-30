@@ -1,0 +1,79 @@
+{
+  "name": "technical-guide",
+  "title": "技术指南模板",
+  "description": "适合写技术教程和操作指南",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "指南标题"
+    },
+    {
+      "type": "paragraph",
+      "text": "本指南将帮助你[完成某项任务]..."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "前提条件"
+    },
+    {
+      "type": "list",
+      "items": [
+        "[要求一]",
+        "[要求二]",
+        "[要求三]"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "步骤"
+    },
+    {
+      "type": "paragraph",
+      "text": "步骤 1: [详细步骤描述]"
+    },
+    {
+      "type": "paragraph",
+      "text": "步骤 2: [详细步骤描述]"
+    },
+    {
+      "type": "paragraph",
+      "text": "步骤 3: [详细步骤描述]"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "代码示例"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "code": "// 示例代码\nconst example = () => {\n  return 'Hello World';\n};"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "注意事项"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "[注意事项一]",
+        "[注意事项二]",
+        "[注意事项三]"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "总结"
+    },
+    {
+      "type": "paragraph",
+      "text": "通过本指南，你应该能够[完成某事]..."
+    }
+  ]
+}
