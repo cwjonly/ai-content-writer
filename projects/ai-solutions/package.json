@@ -9,7 +9,10 @@
   "scripts": {
     "start": "node src/index.js",
     "test": "node test/test.js",
-    "deploy": "./deploy.sh"
+    "demo": "node demo.js",
+    "init": "node src/index.js init",
+    "deploy": "./deploy.sh",
+    "deploy:win": "./deploy.bat"
   },
   "keywords": ["AI", "content", "writing", "generator", "tool"],
   "author": "AI Solutions",
@@ -26,5 +29,13 @@
   },
   "engines": {
     "node": ">=14.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cwjonly/ai-content-writer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cwjonly/ai-content-writer/issues"
+  },
+  "homepage": "https://github.com/cwjonly/ai-content-writer#readme"
 }
