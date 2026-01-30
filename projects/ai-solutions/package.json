@@ -1,0 +1,30 @@
+{
+  "name": "ai-content-writer",
+  "version": "1.0.0",
+  "description": "智能内容生成工具 - 帮助用户快速创建高质量文章和内容",
+  "main": "src/index.js",
+  "bin": {
+    "ai-writer": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node test/test.js",
+    "deploy": "./deploy.sh"
+  },
+  "keywords": ["AI", "content", "writing", "generator", "tool"],
+  "author": "AI Solutions",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^9.4.1",
+    "inquirer": "^9.2.8",
+    "chalk": "^5.3.0",
+    "ora": "^7.0.1",
+    "figlet": "^1.6.0"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
