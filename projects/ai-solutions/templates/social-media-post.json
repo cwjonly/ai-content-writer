@@ -1,0 +1,56 @@
+{
+  "name": "social-media-post",
+  "title": "社交媒体帖子模板",
+  "description": "适用于微博、微信、Twitter等社交媒体平台",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 1",
+      "text": "帖子标题（可选）"
+    },
+    {
+      "type": "paragraph",
+      "placeholder": "[在这里写一个引人注目的开头，可以使用表情符号...]"
+    },
+    {
+      "type": "heading",
+      "level": 2",
+      "text": "正文内容"
+    },
+    {
+      "type": "paragraph",
+      "placeholder": "[主要内容，保持简洁有力...]"
+    },
+    {
+      "type": "heading",
+      "level": 2",
+      "text": "关键要点"
+    },
+    {
+      "type": "list",
+      "items": [
+        "[要点一]",
+        "[要点二]",
+        "[要点三]"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2",
+      "text": "号召行动"
+    },
+    {
+      "type": "paragraph",
+      "placeholder": "[引导用户进行评论、点赞、分享或点击链接...]"
+    },
+    {
+      "type": "heading",
+      "level": 3",
+      "text": "相关话题标签"
+    },
+    {
+      "type": "paragraph",
+      "text": "#标签1 #标签2 #标签3"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "name": "press-release",
+  "title": "新闻稿模板",
+  "description": "适用于公司公告、产品发布等重要信息发布",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "立即发布：[公司名称]推出[产品名称]"
+    },
+    {
+      "type": "heading",
+      "level": 2",
+      "text": "媒体联络"
+    },
+    {
+      "type": "paragraph",
+      "text": "[联系人姓名]\n[职位]\n[邮箱]\n[电话]\n[公司网址]"
+    },
+    {
+      "type": "heading",
+      "level": 2",
+      "text": "[城市], [日期] — [公司名称]今天宣布..."
+    },
+    {
+      "type": "paragraph",
+      "text": "[这里是新闻稿的导语，通常是一句话概括最重要的信息...]"
+    },
+    {
+      "type": "heading",
+      "level": 2",
+      "text": "详细说明"
+    },
+    {
+      "type": "paragraph",
+      "text": "[详细描述背景、事件经过等信息...]"
+    },
+    {
+      "type": "heading",
+      "level": 2",
+      "text": "引述"
+    },
+    {
+      "type": "quote",
+      "text": "[公司CEO或相关负责人的引述...]"
+    },
+    {
+      "type": "heading",
+      "level": 2",
+      "text": "关于[公司名称]"
+    },
+      "type": "paragraph",
+      "text": "[公司简介，包括背景、规模、愿景等...]"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI内容生成工具</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🤖 AI内容生成工具</h1>
+            <p>智能创建高质量内容，支持多种模板和格式</p>
+        </header>
+
+        <main>
+            <div class="card">
+                <h2>创建新内容</h2>
+                <form id="content-form">
+                    <div class="form-group">
+                        <label for="template-select">选择模板：</label>
+                        <select id="template-select" required>
+                            <option value="">请选择模板...</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="title-input">内容标题：</label>
+                        <input type="text" id="title-input" placeholder="输入内容标题...">
+                    </div>
+
+                    <div class="form-group">
+                        <label>
+                            <input type="checkbox" id="enhanced-mode">
+                            使用增强模式
+                        </label>
+                    </div>
+
+                    <div class="form-group advanced-options" style="display: none;">
+                        <label for="word-count">字数限制：</label>
+                        <input type="number" id="word-count" placeholder="不限制" min="1">
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary">生成内容</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="card" id="result-card" style="display: none;">
+                <h2>生成结果</h2>
+                <div class="content-area">
+                    <div class="content-tools">
+                        <button id="copy-btn" class="btn btn-secondary">复制内容</button>
+                        <button id="download-btn" class="btn btn-secondary">下载文件</button>
+                        <button id="regenerate-btn" class="btn btn-secondary">重新生成</button>
+                    </div>
+                    <textarea id="content-output" readonly></textarea>
+                </div>
+                
+                <div id="stats-container" style="display: none;">
+                    <h3>统计信息</h3>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <span class="stat-label">字数：</span>
+                            <span class="stat-value" id="word-count">0</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">行数：</span>
+                            <span class="stat-value" id="line-count">0</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">字符数：</span>
+                            <span class="stat-value" id="char-count">0</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">阅读时间：</span>
+                            <span class="stat-value" id="reading-time">0</span> 分钟
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>使用说明</h2>
+                <div class="usage-guide">
+                    <h3>功能特点：</h3>
+                    <ul>
+                        <li>🎯 多种预设模板：博客文章、技术指南、营销邮件等</li>
+                        <li>🚀 智能内容生成：基于模板自动生成结构化内容</li>
+                        <li>📁 多种格式支持：Markdown、HTML、JSON</li>
+                        <li>💾 一键保存下载：轻松保存生成的内容</li>
+                        <li>📊 详细统计信息：字数、阅读时间等</li>
+                    </ul>
+                    
+                    <h3>使用方法：</h3>
+                    <ol>
+                        <li>选择一个适合你的模板</li>
+                        <li>输入内容标题（可选）</li>
+                        <li>选择是否使用增强模式</li>
+                        <li>点击"生成内容"按钮</li>
+                        <li>复制或下载生成的内容</li>
+                    </ol>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>© 2024 AI内容生成工具 | 基于Node.js构建</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

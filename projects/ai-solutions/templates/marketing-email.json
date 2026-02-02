@@ -1,0 +1,69 @@
+{
+  "name": "marketing-email",
+  "title": "营销邮件模板",
+  "description": "适用于产品推广、活动通知等营销邮件",
+  "sections": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "邮件标题"
+    },
+    {
+      "type": "paragraph",
+      "text": "尊敬的客户，"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "开场白"
+    },
+    {
+      "type": "paragraph",
+      "text": "[在这里写一个吸引人的开场白...]"
+    },
+    {
+      "type": "heading",
+      "level": 2",
+      "text": "产品/服务介绍"
+    },
+    {
+      "type": "paragraph",
+      "text": "[详细介绍你的产品或服务的特点和优势...]"
+    },
+    {
+      "type": "heading",
+      "level": 2",
+      "text": "价值主张"
+    },
+    {
+      "type": "list",
+      "items": [
+        "[主要优势一]",
+        "[主要优势二]",
+        "[主要优势三]"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2",
+      "text": "行动号召"
+    },
+    {
+      "type": "paragraph",
+      "text": "[明确的行动引导...]"
+    },
+    {
+      "type": "heading",
+      "level": 2",
+      "text": "联系方式"
+    },
+    {
+      "type": "paragraph",
+      "text": "[联系方式信息...]"
+    },
+    {
+      "type": "paragraph",
+      "text": "祝好，\n[你的名字]"
+    }
+  ]
+}
